@@ -38,5 +38,10 @@
     "locale": "nl-NL",
     "localeName": "Dutch (Netherlands)",
     "name": "Dutch (Netherlands)"
+  },
+  {
+    "locale": "el-GR",
+    "localeName": "Greek (Greece)",
+    "name": "Greek (Greece)"
   }
 ]
