@@ -44,6 +44,7 @@ Hacky? You bet. Effective? Damn right. This was done in 3 hours late at night, s
 * [pt-BR] Português - Portuguese (Brazil) thanks to [@renatonascalves](https://github.com/renatonascalves)
 * [nl-NL] Dutch (Netherlands) thanks to [@Harjo](https://github.com/Harjo)
 * [fr-CA] French (Canada/Quebec) thanks to [@Baelx](https://github.com/Baelx)
+* [el-GR] Greek (Greece) thanks to [@tasoskakour](https://github.com/tasoskakour)
 
 ## Adding more languages
 
