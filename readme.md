@@ -36,15 +36,15 @@ Hacky? You bet. Effective? Damn right. This was done in 3 hours late at night, s
 
 ## Supported languages
 
+* [de-CH] German (Switzerland) thanks to [@mr-deamon](https://github.com/mr-deamon)
 * [en-US] English (United States)
-* [fr-CH] Français - French (Switzerland) thanks to [@mr-deamon](https://github.com/mr-deamon)
-* [de-CH] Deutsche - German (Switzerland) thanks to [@mr-deamon](https://github.com/mr-deamon)
-* [es-ES] Español - Spanish (Spain)
-* [sv-SE] Svenska - Swedish (Sweden) thanks to [@calmh](https://github.com/calmh)
-* [pt-BR] Português - Portuguese (Brazil) thanks to [@renatonascalves](https://github.com/renatonascalves)
-* [nl-NL] Dutch (Netherlands) thanks to [@Harjo](https://github.com/Harjo)
-* [fr-CA] French (Canada/Quebec) thanks to [@Baelx](https://github.com/Baelx)
 * [el-GR] Greek (Greece) thanks to [@tasoskakour](https://github.com/tasoskakour)
+* [es-ES] Spanish (Spain)
+* [fr-CA] French (Canada) thanks to [@Baelx](https://github.com/Baelx)
+* [fr-CH] French (Switzerland) thanks to [@mr-deamon](https://github.com/mr-deamon)
+* [nl-NL] Dutch (Netherlands) thanks to [@Harjo](https://github.com/Harjo)
+* [pt-BR] Portuguese (Brazil) thanks to [@renatonascalves](https://github.com/renatonascalves)
+* [sv-SE] Swedish (Sweden) thanks to [@calmh](https://github.com/calmh)
 
 ## Adding more languages
 
