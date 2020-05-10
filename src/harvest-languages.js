@@ -4,7 +4,7 @@
     var select, spinner, updated, manifest;
 
     // This changes every once in a while
-    var selector = '#invoice_header div.grid1of3.text-right';
+    var selector = '#invoice_header > div > div:nth-child(2)';
 
     init();
 
