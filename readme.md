@@ -79,7 +79,7 @@ This extension makes use of [Zepto](http://zeptojs.com) and [lodash](https://lod
 
 The MIT License (MIT)
 
-Copyright (c) 2016-2019 Orestes Carracedo - [https://orestes.io](https://orestes.io) - [@OrestesCA](http://twitter.com/orestesca)
+Copyright (c) 2016-2022 Orestes Carracedo - [https://orestes.io](https://orestes.io) - [@OrestesCA](http://twitter.com/orestesca)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
