@@ -1,0 +1,29 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and publish extension
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+      - name: Upload & release
+        uses: mnao305/chrome-extension-upload@3.0.0
+        with:
+          file-path: dist/build.zip
+          extension-id: cgpkdjfgbnokjojgehhjmmoijngneaih
+          client-id: ${{ secrets.CLIENT_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          refresh-token: ${{ secrets.REFRESH_TOKEN }}
