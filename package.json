@@ -1,0 +1,23 @@
+{
+  "name": "harvest-languages",
+  "version": "3.4.2",
+  "description": "Simple Translation support for Harvest",
+  "main": "index.js",
+  "scripts": {
+    "build": "bestzip dist/build.zip src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orestes/harvest-languages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/orestes/harvest-languages/issues"
+  },
+  "homepage": "https://github.com/orestes/harvest-languages#readme",
+  "dependencies": {
+    "bestzip": "^2.2.1"
+  }
+}
