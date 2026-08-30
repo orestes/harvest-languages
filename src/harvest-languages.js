@@ -30,7 +30,7 @@
 
     function loadLanguages() {
         return new Promise(function(resolve, reject) {
-            fetch(chrome.extension.getURL('/languages.json'))
+            fetch(chrome.runtime.getURL('/languages.json'))
                 .then(function(response) {
                     response.json()
                         .then(resolve)
@@ -42,7 +42,7 @@
 
     function loadLanguage(locale) {
         return new Promise(function(resolve, reject) {
-            fetch(chrome.extension.getURL('/languages/' + locale + '.json'))
+            fetch(chrome.runtime.getURL('/languages/' + locale + '.json'))
                 .then(function(response) {
                     response.json()
                         .then(resolve)
@@ -68,7 +68,7 @@
 
     function getSpinner() {
         return spinner = $('<img id="harvest-language-loading" ' +
-                           'src="' + chrome.extension.getURL('/content/images/spinner.gif') + '">')
+                           'src="' + chrome.runtime.getURL('/content/images/spinner.gif') + '">')
             .hide();
     }
 
