@@ -2,12 +2,20 @@
   "name": "Harvest Language Support",
   "short_name": "Harvest Languages",
   "author": "Orestes Carracedo (@orestesCA https://orestes.io)",
-  "version": "3.5.1",
-  "manifest_version": 2,
+  "version": "3.6.0",
+  "manifest_version": 3,
   "description": "Simple language support for Harvest (harvestapp.com)",
   "web_accessible_resources": [
-    "*.json",
-    "*.gif"
+    {
+      "resources": [
+        "languages.json",
+        "languages/*.json",
+        "content/images/*.gif"
+      ],
+      "matches": [
+        "https://*.harvestapp.com/*"
+      ]
+    }
   ],
   "content_scripts": [
     {
@@ -23,7 +31,8 @@
         "vendor/zepto.ajax.js",
         "harvest-languages.js"
       ]
-    },{
+    },
+    {
       "matches": [
         "https://*.harvestapp.com/estimates/*"
       ],

@@ -1,10 +1,10 @@
 {
   "name": "harvest-languages",
-  "version": "3.4.2",
+  "version": "3.6.0",
   "description": "Simple Translation support for Harvest",
   "main": "index.js",
   "scripts": {
-    "build": "bestzip dist/build.zip src/"
+    "build": "cd src && bestzip ../dist/build.zip *"
   },
   "repository": {
     "type": "git",
